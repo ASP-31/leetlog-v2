@@ -258,52 +258,52 @@ The exact stack may evolve during development.
 
 ## 🗺️ Roadmap
 
-### Phase 1 — Foundation
+### Phase 1 — Foundation ✅
 
-* [ ] Chrome Extension setup
-* [ ] Manifest V3
-* [ ] LeetCode problem detection
-* [ ] Extension popup
-* [ ] Settings
+* [x] Chrome Extension setup
+* [x] Manifest V3
+* [x] LeetCode problem detection
+* [x] Extension popup
+* [x] Settings
 
-### Phase 2 — LeetCode Integration
+### Phase 2 — LeetCode Integration ✅
 
-* [ ] Detect submissions
-* [ ] Detect Accepted status
-* [ ] Extract problem metadata
-* [ ] Extract submitted code
-* [ ] Detect programming language
-* [ ] Track attempts
+* [x] Detect submissions
+* [x] Detect Accepted status
+* [x] Extract problem metadata
+* [x] Extract submitted code
+* [x] Detect programming language
+* [x] Track attempts
 
-### Phase 3 — GitHub Integration
+### Phase 3 — GitHub Integration ✅
 
-* [ ] GitHub authentication
-* [ ] Repository selection
-* [ ] Automatic solution commits
-* [ ] Repository structure
-* [ ] Duplicate handling
-* [ ] Sync retry system
+* [x] GitHub authentication
+* [x] Repository selection
+* [x] Automatic solution commits
+* [x] Repository structure
+* [x] Duplicate handling
+* [x] Sync retry system
 
-### Phase 4 — Learning Layer
+### Phase 4 — Learning Layer ✅
 
-* [ ] Topic tracking
-* [ ] Pattern tracking
-* [ ] Confidence
-* [ ] Mistakes
-* [ ] Learning notes
-* [ ] Revision tracking
+* [x] Topic tracking
+* [x] Pattern tracking
+* [x] Confidence
+* [x] Mistakes
+* [x] Learning notes
+* [x] Revision tracking
 
-### Phase 5 — Dashboard
+### Phase 5 — Dashboard ✅
 
-* [ ] Total problems
-* [ ] Difficulty statistics
-* [ ] Topic statistics
-* [ ] Pattern statistics
-* [ ] Streak
-* [ ] Revision queue
-* [ ] Weekly activity
+* [x] Total problems
+* [x] Difficulty statistics
+* [x] Topic statistics
+* [x] Pattern statistics
+* [x] Streak
+* [x] Revision queue
+* [x] Weekly activity
 
-### Phase 6 — Expansion
+### Phase 6 — Expansion 🚧
 
 * [ ] AI-assisted pattern detection
 * [ ] Better analytics
@@ -344,13 +344,15 @@ If you find a bug, have an idea, or want to improve LeetLog:
 
 ## 📌 Project Status
 
-🚧 **LeetLog V2 is currently under development.**
+🚀 **LeetLog V2 is actively developed.**
 
-The initial release will focus on:
+Core pipeline is functional:
 
 **LeetCode → Chrome Extension → GitHub**
 
-with the learning and analytics layer built on top.
+with the learning and analytics layer (Phases 4-5) built on top.
+
+**Note:** GitHub sync requires a [Personal Access Token](https://github.com/settings/tokens) with `repo` scope. Enter it in the Settings tab of the extension.
 
 ---
 
